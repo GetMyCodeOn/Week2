@@ -388,13 +388,13 @@ well...
 what would YOU do
 if your mother asked YOU?</p>
        </div> 
-        $.ajax({
+        <script>$.ajax({
         url: "http://content.guardianapis.com/search?section=football",
         dataType: "jsonp",
         success: function( data ) 
 $( "#weather1" ).append("<li>" + data.response.results[0].webTitle + "</li>");
         }
-    });
+                       });</script>
 
    
     
