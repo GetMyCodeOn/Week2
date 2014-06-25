@@ -1,3 +1,13 @@
+a {
+text-decoration:none;
+color:#005689;
+
+}
+
+body {
+	max-width:50em;
+}
+
 h1 {
 
  font-size: 24px;
