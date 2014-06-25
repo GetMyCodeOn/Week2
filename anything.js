@@ -1,5 +1,5 @@
   $.ajax({
-    url: "http://content.guardianapis.com/search?q=uknews&show-fields=all",
+    url: "http://content.guardianapis.com/search?q=uknews&page-size=5&show-fields=trailText%2Cthumbnail",
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
@@ -11,7 +11,7 @@
     }});
 
   $.ajax({
-    url: "http://content.guardianapis.com/search?section=football&show-fields=all",
+    url: "http://content.guardianapis.com/search?q=football&page-size=5&show-fields=trailText%2Cthumbnail",
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
@@ -22,7 +22,7 @@
     }});
 
   $.ajax({
-    url: "http://content.guardianapis.com/search?section=travel&show-fields=all",
+    url: "http://content.guardianapis.com/search?q=travel&page-size=5&show-fields=trailText%2Cthumbnail",
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {

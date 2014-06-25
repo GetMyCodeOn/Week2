@@ -5,7 +5,7 @@ color:#005689;
 }
 
 body {
-	max-width:50em;
+	max-width:40em;
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
 
  position: relative; 
 
- min-height: 70em; /* This part sucks */
+ min-height: 58em; /* This part sucks */
 
  clear: both;
 
