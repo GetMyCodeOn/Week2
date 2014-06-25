@@ -24,7 +24,7 @@ h1 {
 
  position: relative; 
 
- min-height: 400px; /* This part sucks */
+ min-height: 70em; /* This part sucks */
 
  clear: both;
 
