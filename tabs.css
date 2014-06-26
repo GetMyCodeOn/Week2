@@ -1,3 +1,10 @@
+ol {
+    font-family: "Guardian Egyptian Headline", Georgia, serif;
+}
+label {
+    font-family: "Guardian Egyptian Text", Georgia, serif;
+}
+
 a {
 text-decoration:none;
 color:#005689;
@@ -47,7 +54,7 @@ h1 {
 
  position: relative; 
 
- min-height: 50em; /* This part sucks */
+ min-height: 110em; /* This part sucks */
 
  clear: both;
 
