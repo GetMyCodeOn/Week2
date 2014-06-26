@@ -2,11 +2,21 @@ a {
 text-decoration:none;
 color:#005689;
 
+
 }
 
 body {
 	max-width:40em;
 }
+
+ ol > img  {
+
+position:relative;
+float:left;
+margin-right:20px;
+
+}
+
 
 h1 {
 
@@ -34,7 +44,7 @@ h1 {
 
  position: relative; 
 
- min-height: 58em; /* This part sucks */
+ min-height: 60em; /* This part sucks */
 
  clear: both;
 

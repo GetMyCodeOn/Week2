@@ -3,7 +3,7 @@
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
-        $( "#news" ).append('<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>');
+        $( "#news" ).append("<br clear=all>" + '<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>' + "</br>");
         $( "#news" ).append('<img src="' + this['fields'].thumbnail + '" />');
         $( "#news" ).append("<ul>" + this['fields'].trailText + "</ul>");
 
@@ -15,7 +15,7 @@
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
-        $( "#football" ).append('<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>');
+        $( "#football" ).append("<br clear=all>" + '<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>' + "</br>");
         $( "#football" ).append('<img src="' + this['fields'].thumbnail + '" />');
         $( "#football" ).append("<ul>" + this['fields'].trailText + "</ul>");
       });
@@ -26,7 +26,7 @@
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
-        $( "#travel" ).append('<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>');
+        $( "#travel" ).append("<br clear=all>" + '<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>' + "</br>");
         $( "#travel" ).append('<img src="' + this['fields'].thumbnail + '" />');
         $( "#travel" ).append("<ul>" + this['fields'].trailText + "</ul>");
       });
