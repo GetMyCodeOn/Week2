@@ -1,4 +1,4 @@
-var topics = {'1':"news",'2':"football",'3':"travel"};
+var topics = {'1':"uknews",'2':"football",'3':"travel"};
   
 
 
