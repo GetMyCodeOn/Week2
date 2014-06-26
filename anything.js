@@ -9,6 +9,8 @@ var topics = {'1':"uk-news",'2':"football",'3':"travel"};
     $.ajax({
 
       url: "http://content.guardianapis.com/search?section="+ val +"&page-size=5&show-fields=thumbnail%2CtrailText%2CshortUrl",
+      
+
 
 
       dataType: "jsonp",
