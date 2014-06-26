@@ -40,6 +40,8 @@ h1 {
 
 }
 
+
+
 .tabs {
 
  position: relative; 
@@ -48,7 +50,9 @@ h1 {
 
  clear: both;
 
- margin: 25px 0;
+ margin: 1em 0;
+
+
 
 }
 
@@ -94,8 +98,9 @@ h1 {
 
  bottom: 0;
 
- padding: 20px;
+ padding: 0px;
 
+padding-right: 8px;
  border: 1px solid #ccc; 
 
 }
