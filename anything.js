@@ -17,7 +17,7 @@ var topics = {'1':"uk-news",'2':"football",'3':"travel"};
 
       success: function(data) {
         $.each(data.response.results, function () {
-                 $( "#" + val ).append("<br clear=all>" + '<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>' + "</br>");
+                 $( "#" + val ).append("<br clear=all>" + "<hr>" + '<a href="' + this['fields'].shortUrl + '"><li>' + this['webTitle'] + '</li></a>' + "<hr>" + "</br>");
                  $( "#" + val ).append('<a href="' + this['fields'].shortUrl + '"><img src="' + this['fields'].thumbnail + '" /></a>');
                  $( "#" + val ).append("<ul>" + this['fields'].trailText + "</ul>");
         });
